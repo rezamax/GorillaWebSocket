@@ -52,12 +52,6 @@ func reader(conn *websocket.Conn) {
 				log.Println(err)
 			}
 		}
-		// if string(p) == "How Are you" {
-		// 	err = conn.WriteMessage(1, []byte("I'm good!"))
-		// 	if err != nil {
-		// 		log.Println(err)
-		// 	}
-		// }
 	}
 }
 
